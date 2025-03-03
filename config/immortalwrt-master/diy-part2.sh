@@ -37,7 +37,7 @@ svn co https://github.com/destan19/OpenAppFilter package/luci-app-oaf
 svn co https://github.com/vernesong/OpenClash package/luci-app-openclash
 svn co https://github.com/sirpdboy/luci-app-partexp package/luci-app-partexp
 svn co https://github.com/animegasan/luci-app-quickstart package/luci-app-quickstart
-svn co https://github.com/tindy2013/openwrt-subconverter package/openwrt-subconverter
+svn co https://github.com/tindy2013/openwrt-subconverter package/luci-app-subconverter
 
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
