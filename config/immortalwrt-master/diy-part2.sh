@@ -25,13 +25,6 @@ sed -i 's/192.168.1.1/10.10.100.253/g' package/base-files/files/bin/config_gener
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 
-svn co https://github.com/lisaac/luci-app-diskman/trunk package/luci-app-diskman
-svn co https://github.com/immortalwrt/homeproxy/trunk/homeproxy package/luci-app-homeproxy
-svn co https://github.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns package/luci-app-mosdns
-svn co https://github.com/ximiTech/luci-app-msd_lite/trunk/luci-app-msd_lite package/luci-app-msd_lite
-svn co https://github.com/muink/luci-app-netspeedtest/trunk/luci-app-netspeedtest package/luci-app-netspeedtest
-svn co https://github.com/vernesong/OpenClash/trunk/OpenClash package/luci-app-openclash
-
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
